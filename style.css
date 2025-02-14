@@ -1,0 +1,70 @@
+/* Center the entire page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fce4ec;
+    color: #d81b60;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the content box */
+.container {
+    background: white;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Ensure everything inside is centered */
+}
+
+/* Center the heading */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Center the image properly */
+.baby-image {
+    width: 200px;
+    height: auto;
+    display: block; /* Makes it a block element */
+    margin: 0 auto 20px auto; /* Centers horizontally */
+}
+
+/* Style the paragraph */
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+button {
+    background: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #d81b60;
+}
+
+/* Confetti canvas positioning */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
